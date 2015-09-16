@@ -1,0 +1,33 @@
+# muttrc
+# Defaults are commented out for reference DMK
+
+#
+#set mbox_type=Maildir
+set folder="~/Mail/"
+set signature="~/.mutt/signature"  	# mail signature location
+set mail_check=60			# check for enw mail every 60 seconds
+set timeout=15				# after 15 seconds of no keypresses,
+					# start checking for new mail
+set from="user@domain.com"
+set editor=vim
+set record="+.Sent"
+set postponed="+.Drafts"
+set sort_aux="reverse-last-date-received"
+
+#set pager="builtin"
+set pager_index_lines=10
+set tilde
+
+ignore *
+unignore date from to cc subject reply-to X-Bogosity
+hdr_order from date to cc subject reply-to
+
+
+set sidebar_width=30
+set sidebar_visible=yes
+set sidebar_delim='|'
+
+
+
+
+#set index_format="%4C %Z %{%b %d} %-15.15L (%4l) %s"

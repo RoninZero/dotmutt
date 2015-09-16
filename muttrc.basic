@@ -1,0 +1,14 @@
+# muttrc
+
+set signature="~/.mutt/signature"  	# mail signature location
+set mail_check=60			# check for enw mail every 60 seconds
+set timeout=15				# after 15 seconds of no keypresses,
+					# start checking for new mail
+set sort_aux="reverse-last-date-received"
+
+#set pager="builtin"
+set pager_index_lines=10
+set tilde
+
+
+
