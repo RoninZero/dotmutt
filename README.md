@@ -1,0 +1,2 @@
+# dotmutt
+Mutt configuration settings
